@@ -101,6 +101,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9D3C69602F367CF700E641A5 /* iPhone */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = iPhone; sourceTree = "<group>"; };
 		9D85EB992F35EC46006C44D1 /* OpenClaw */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = OpenClaw; path = JarvisVision/OpenClaw; sourceTree = SOURCE_ROOT; };
+		TOOLS0001002003004005006 /* Tools */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); name = Tools; path = JarvisVision/Tools; sourceTree = SOURCE_ROOT; };
 		E699CC962E8150670052C240 /* JarvisVisionTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JarvisVisionTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -184,6 +185,7 @@
 				8FD96B792E6F0A9800F56AB1 /* JarvisVisionApp.swift */,
 				8FD96B7B2E6F0A9800F56AB1 /* Info.plist */,
 				9D85EB992F35EC46006C44D1 /* OpenClaw */,
+				TOOLS0001002003004005006 /* Tools */,
 			);
 			path = JarvisVision;
 			sourceTree = "<group>";
@@ -250,6 +252,7 @@
 			fileSystemSynchronizedGroups = (
 				9D3C69602F367CF700E641A5 /* iPhone */,
 				9D85EB992F35EC46006C44D1 /* OpenClaw */,
+				TOOLS0001002003004005006 /* Tools */,
 			);
 			name = JarvisVision;
 			productName = JarvisVision;

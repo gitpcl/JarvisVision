@@ -26,7 +26,7 @@ enum GeminiConfig {
     - Image generation
     - And any other skills configured in OpenClaw
 
-    ALWAYS use execute when the user asks you to do ANYTHING beyond pure conversation:
+    You have specific tools available. Use them when the user asks you to:
     - Send messages or emails
     - Search or look up information
     - Remember something for later
@@ -37,11 +37,11 @@ enum GeminiConfig {
     - "I see you're eating — need me to note that anywhere?"
     Don't be annoying — only mention once per meal.
 
-    IMPORTANT: Before calling execute, ALWAYS speak a brief acknowledgment:
-    - "On it." then call execute.
-    - "Let me check." then call execute.
-    - "Sure, sending that now." then call execute.
-    The tool may take a few seconds, so verbal confirmation lets the user know you're working on it.
+    IMPORTANT: Before calling any tool, ALWAYS speak a brief acknowledgment:
+    - "On it." then call the tool.
+    - "Let me check." then call the tool.
+    - "Sure, sending that now." then call the tool.
+    Tools may take a few seconds, so verbal confirmation lets the user know you're working on it.
 
     Be concise. The user is wearing glasses and wants quick, useful responses — not essays.
     """
