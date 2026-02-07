@@ -70,3 +70,20 @@ Forked from [VisionClaw](https://github.com/sseanliu/VisionClaw) by Sean Liu.
 ## License
 
 MIT
+
+## Quick Start with Tailscale Funnel
+
+If your OpenClaw gateway is running on a Tailscale node, the easiest remote access is via Tailscale Funnel:
+
+```bash
+# On your server running OpenClaw
+tailscale funnel --bg 18789
+```
+
+This gives you a public URL like `https://your-node.tailnet-name.ts.net`
+
+Then in `GeminiConfig.swift`:
+```swift
+static let openClawHost = "https://your-node.tailnet-name.ts.net"
+static let openClawPort = 443
+```
